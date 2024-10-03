@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "initialMessage",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Voting.sol": "Simple"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Voting.sol": {
+			"keccak256": "0x8d2f2a70fbf406859b05a66e2b9b91a8404a8a9d12365dc9e25c5564b7e78c28",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5cdde0873c42e61d43f5da92fe074f8c83e6a77430208d62a64acc0c4e7b111f",
+				"dweb:/ipfs/QmTLr4NHCM4HJauqSfKmwuPLsX9vj9pQLAu9pYRpCDkz78"
+			]
+		}
+	},
+	"version": 1
+}
